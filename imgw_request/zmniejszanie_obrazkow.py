@@ -1,5 +1,8 @@
 from os import walk, path
 from PIL import Image
+from pillow_heif import register_heif_opener
+
+register_heif_opener()
 
 print(list(walk('images')))
 
@@ -14,4 +17,4 @@ for dir, _, files in walk('images'):
         # tworzenie nowej nazwy dla zmniejszonych
        zmniejszone=path.join(dir, 'zmniejszony_'+file)
         # zapis zmniejszonego obrazka
-       image.save(zmniejszone)
+       image.save(zmniejszone, "JPEG", exif=exif_bytes)
