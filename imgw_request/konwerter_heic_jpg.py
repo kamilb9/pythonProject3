@@ -11,5 +11,5 @@ for dir, _, files in walk('images'):
         img = Image.open(source)
         # skalowanie obrazka
         img.thumbnail((1980, 1980))
-        konv = path.join(dir, 'konv_' + file)
+        konv = path.join(dir, 'konv_' + file.replace('.heic','.jpeg'))
         img.save(konv+'.jpeg')
