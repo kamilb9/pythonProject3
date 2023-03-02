@@ -1,0 +1,32 @@
+[
+    {
+        "pytanie": "Ile Adam ma lat?",
+        "odpowiedzi":[
+            10,
+            4,
+            36,
+            34
+        ],
+        "poprawna odpowiedź":"b"
+    },
+    {
+        "pytanie": "Ile Kamil ma lat?",
+        "odpowiedzi":[
+            10,
+            4,
+            36,
+            34
+        ],
+        "poprawna odpowiedź":"c"
+    },
+    {
+        "pytanie": "Ile Monika ma lat?",
+        "odpowiedzi":[
+            10,
+            4,
+            36,
+            34
+        ],
+        "poprawna odpowiedź":"d"
+    }
+]

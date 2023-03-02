@@ -1,0 +1,39 @@
+"Kamil"
+36
+true
+null
+[1, 2, 3, 4, "Kamil"]
+{"kamil": 36, "ktoś": 32, "lista"=[1,2,3,4], "wiek":{36}}
+
+[
+    {
+        "pytanie": "Ile Adam ma lat?",
+        "odpowiedzi":[
+            10,
+            4,
+            36,
+            34
+        ],
+        "poprawna odpowiedź":"b"
+    },
+    {
+        "pytanie": "Ile Kamil ma lat?",
+        "odpowiedzi":[
+            10,
+            4,
+            36,
+            34
+        ],
+        "poprawna odpowiedź":"c"
+    },
+    {
+        "pytanie": "Ile Monika ma lat?",
+        "odpowiedzi":[
+            10,
+            4,
+            36,
+            34
+        ],
+        "poprawna odpowiedź":"d"
+    }
+]
